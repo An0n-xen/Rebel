@@ -43,6 +43,7 @@ y_train = np.array(y_train)
 
 # X + y
 # ! There is some beans at line 38
+# ! There is another beans aat line 39
 
 
 class ChatDataset(Dataset):
