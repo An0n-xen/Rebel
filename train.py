@@ -42,7 +42,6 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # X + y
-# y + x
 
 
 class ChatDataset(Dataset):
