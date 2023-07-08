@@ -42,6 +42,7 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # X + y
+# ! There is some beans at line 38
 
 
 class ChatDataset(Dataset):
