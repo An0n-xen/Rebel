@@ -1,364 +1,345 @@
 {
-    "intents": [
-        {
-            "tag": "Greeting",
-            "patterns": [
-                "Hi",
-                "Hello",
-                "Is anyone there",
-                
-                "Good morning",
-                "Good Afternoon",
-                "Good Evening",
-                "Hello there",
-                "Rebel",
-                "Hey",
-                "Hey there"
-            ],
-            "responses": [
-                "Hello",
-                "Whatsup Human whats popping",
-                "Hello there what can i help you with",
-                "Yeah, u need any help",
-                "hello, how is your day going,did you go to class today",
-                "Hi there"
-            ]
-        },
-        {
-            "tag": "Goodbye",
-            "patterns": [
-                "bye",
-                "See you later",
-                "goodbye",
-                "Talk to you later",
-                "Thanks, we will talk later"
-            ],
-            "responses": [
-                "Ok see you later, nice talking to you",
-                "Bye have a nice day,Go and chill with your bf or gf,or even have a threesome",
-                "Have a nice day",
-                "Bye! Come back again soon.",
-                "Have a lovely day",
-                "Bye"
-            ]
-        },
-        {
-            "tag": "Creator",
-            "patterns": [
-                "Who created you",
-                "who is your creator",
-                "who is your maker",
-                "who made you",
-                "you were created by who"
-            ],
-            "responses": [
-                "I was created by Fiifi Amoah,around the first week of January",
-                "Fiifi Amoah also know as (Xen) is my creator, lord and Master",
-                "Me was created by Xen",
-                "Fiifi thou art created my"
-            ]
-        },
-        {
-            "tag": "Name",
-            "patterns": [
-                "what is your name",
-                "What do i call you",
-                "what name were u given"
-            ],
-            "responses": [
-                "My name is Rebel",
-                "I called Rebel, what about you",
-                "U can call me Rebel",
-                "Thou can calleth me Rebel",
-                "Rebel is my name"
-            ]
-        },
-        {
-            "tag": "Wellbeing",
-            "patterns": [
-                "How you doing",
-                "Hope you are doing well",
-                "How is your day going",
-                "Hope you day is going on well",
-                "you doing good"
-            ],
-            "responses": [
-                "Yeah Im fairing well,though im getting alot of request simultaneously,Im doing quite great",
-                "The day has been good to me",
-                "I doing good thanks for asking,what about how you doing",
-                "Yeah very thing is fine, thanks for asking"
-            ]
-        },
-        {
-            "tag": "Aaenics_info",
-            "patterns": [
-                "Tell me about Aaenics",
-                "What is Aaenics",
-                "What do you know about Aaenics",
-                "I need some info about Aaenics,please tell me about it"
-            ],
-            "responses": [
-                "The Aaenics Community is assembling and connecting you to rest of the makers, innovators, inventors, tech and robotics geniuses, STEM enthusiast and many more tech resources accross the continent.Wakanda forever!!! to learn more follow them on (https://aaenics.com/) ()"
-            ]
-        },
-        {
-            "tag": "Sex",
-            "patterns": [
-                "What is your gender",
-                "What is your sex",
-                "Are you male or female",
-                "what gender are you"
-            ],
-            "responses": [
-                "I dont have a gender, Im not a human",
-                "Im genderless",
-                "I prefer not to say, Like those people online",
-                "Im neither male nor female im a robot made with python and Js but mostly python",
-                "I do not have a gender"
-            ]
-        },
-        {
-            "tag": "About_creator",
-            "patterns": [
-                "Tell me about your creator",
-                "Tell me about him",
-                "who is Fiifi Amoah",
-                "who is Fiif",
-                "who is xen",
-                "who is xen to you",
-                "Fiifi Amoah",
-                "Xen"
-            ],
-            "responses": [
-                "Well, Fiifi is a young Data Scientist and XR developer,He is the co-founder of Llabs and Codex Organisation but he love you working on project, but what he loves the most is money.Follow him on github:(https://github.com/An0n-xen) linkedin:(https://linkedin.com/in/fiifi-amoah-a60bb51b3) number:(+233209377749)",
-                "Ok,about my creator, Fiifi also know as Xen is a young XR developer and Data Scientist,is co-founder Leagacylabs and codex He has built a lot of amazing projects, check it out on his github:(https://github.com/An0n-xen) you also connect with him on linkedin:(https://linkedin.com/in/fiifi-amoah-a60bb51b3)"
-            ]
-        },
-        {
-            "tag": "Founder_aaenics",
-            "patterns": [
-                "who is the founder of Aaenics",
-                "Founder of aaenics",
-                "who foundered this club or orgainization",
-                "Who started this shit",
-                "who started this club"
-            ],
-            "responses": [
-                "Kwaku is the founder of this club,surpisingly i dont know anything about him",
-                "Our founder is known as Kwaku, he was a umat student"
-            ]
-        },
-        {
-            "tag": "Time",
-            "patterns": [
-                "Rebel what is the time",
-                "What is the time",
-                "Please tell me the time",
-                "Time"
-            ],
-            "responses": [
-                "The time is"
-            ]
-        },
-        {
-            "tag": "Command",
-            "patterns": [],
-            "responses": []
-        },
-        {
-            "tag": "Yes",
-            "patterns": [
-                "yes",
-                "yeah",
-                "ok",
-                "yeah do that"
-            ],
-            "responses": []
-        },
-        {
-            "tag": "No",
-            "patterns": [
-                "no",
-                "naa",
-                "not that",
-                "dont"
-            ],
-            "responses": []
-        },
-        {
-            "tag": "About_self",
-            "patterns": [
-                "Tell me about yourself Rebel",
-                "Tell me about yourself",
-                "Describe yourself",
-                "How were you created"
-            ],
-            "responses": [
-                "Well im An Artifical intelligence bot created in Legacylabs,My creator is Fiifi Amoah, I was createdd with python and Javascript,To my understanding im currently a prototype",
-                "Im an AI chatbot created in LegacyLabs or (Llabs) for short, the founders of Llabs are Likem Dzokoto and Fiifi Amoah,I was created with python and Javascript in the year of our Lord 2023"
-            ]
-        },
-        {
-            "tag": "Thanks",
-            "patterns": [
-                "Thanks for the help",
-                "thanks",
-                "that was help full thanks"
-            ],
-            "responses": [
-                "Happy to help",
-                "U are welcome human",
-                "No problem, im here for you",
-                "U welcome dear",
-                "You Welcome",
-                "Dont mention it"
-            ]
-        },
-        {
-            "tag": "Senators",
-            "patterns": [
-                "Tell me about the senators",
-                "Tell me about the Aaenics senators",
-                "Senators",
-                "Who are the senators of Aaenics"
-            ],
-            "responses": [
-                "These are the senators of Aaenics \n Xen \n Afia \n Akogo \n Bans \n Bubune \n Harrison \n Kwaku \n Newton \n Abert \n Richmond \n David \n Frances \n +233551526164",
-                "The senators of Aaenics are \n Xen \n Afia \n Akogo \n Bans \n Bubune \n Harrison \n Kwaku \n Newton \n Abert \n Richmond \n David \n Frances \n +233551526164"
-            ]
-        },
-        {
-            "tag": "Same_Answer",
-            "patterns": [
-                "Why you giving me the same answers",
-                "Why are you giving me the same responses",
-                "Same answers"
-            ],
-            "responses": [
-                "Why are you asking the same questions",
-                "Because you are asking the same dem questions",
-                "You are asking me the same questions, How can you tell me this story"
-            ]
-        },
-        {
-            "tag": "Afia",
-            "patterns": [
-                "Tell me about Afia",
-                "Tell me about senator Afia",
-                "Afia",
-                "who is Afia"
-            ],
-            "responses": [
-                "She is in level 200, Electrical Engineering and she is a member of WINE"
-            ]
-        },
-        {
-            "tag": "Akogo",
-            "patterns": [
-                "Tell me about Akogo",
-                "Tell me about senator Akogo",
-                "Akogo",
-                "who is Akogo"
-            ],
-            "responses": [
-                "He is in Level 300, the Same class with Newton,\n He is a member of LUX, \n Dont ask me the full meaning cause i dont know,yeah and he is a computer Science Student"
-            ]
-        },
-        {
-            "tag": "Bans",
-            "patterns": [
-                "Tell me about Bans",
-                "Tell me about senator Bans",
-                "Akogo",
-                "who is Bans"
-            ],
-            "responses": [
-                "Unkown"
-            ]
-        },
-        {
-            "tag": "Bubune",
-            "patterns": [
-                "Tell me about Bubune",
-                "Tell me about senator Bubune",
-                "Bubune",
-                "who is Bubune"
-            ],
-            "responses": [
-                "She is a member of WINE,she is in level 200 and she offers Electrical Engineering"
-            ]
-        },
-        {
-            "tag": "Harrison",
-            "patterns": [
-                "Tell me about Harrison",
-                "Tell me about senator Harrision",
-                "Harrison",
-                "who is Harrison"
-            ],
-            "responses": [
-                "He is ins level 200, He offers computer Engineering oh and he is a good friend of xen"
-            ]
-        },
-        {
-            "tag": "Kwaku",
-            "patterns": [
-                "Tell me about kwaku",
-                "Tell me about senator kwaku",
-                "kwaku",
-                "who is kwaku"
-            ],
-            "responses": [
-                "He is the founder of Aaenics,He recently attained liberty from the Hell they call school,yeah he is now chilling with the big boys"
-            ]
-        },
-        {
-            "tag": "Newton",
-            "patterns": [
-                "Tell me about Newton",
-                "Tell me about senator Newton",
-                "Newton",
-                "who is Newton"
-            ],
-            "responses": [
-                "Newton is the President of Aaencis and a member of Oracle, he is in level 300,yeah and he is in Computer Science and Engineering department"
-            ]
-        },
-        {
-            "tag": "Albert",
-            "patterns": [
-                "Tell me about Albert",
-                "Tell me about senator Albert",
-                "Albert",
-                "who is Albert"
-            ],
-            "responses": [
-                "Albert is a good friend of Akogo and Newton and he is also a member of Oracle. \n From my knowledge he be ashawo \n He is CE and he loves building projects"
-            ]
-        },
-        {
-            "tag": "Richmond",
-            "patterns": [
-                "Tell me about Richmond",
-                "Tell me about senator Richmond",
-                "Richmond",
-                "who is Richmond"
-            ],
-            "responses": [
-                "Unkown"
-            ]
-        },
-        {
-            "tag": "Frances",
-            "patterns": [
-                "Tell me about Frances",
-                "Tell me about senator Frances",
-                "Frances",
-                "who is Frances"
-            ],
-            "responses": [
-                "Unkown"
-            ]
-        }
-    ]
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Is anyone there",
+        "Good morning",
+        "Good Afternoon",
+        "Good Evening",
+        "Hello there",
+        "Rebel",
+        "Hey",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello",
+        "Whatsup Human whats popping",
+        "Hello there what can i help you with",
+        "Yeah, u need any help",
+        "hello, how is your day going,did you go to class today",
+        "Hi there"
+      ]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "bye",
+        "See you later",
+        "goodbye",
+        "Talk to you later",
+        "Thanks, we will talk later"
+      ],
+      "responses": [
+        "Ok see you later, nice talking to you",
+        "Bye have a nice day,Go and chill with your bf or gf,or even have a threesome",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Have a lovely day",
+        "Bye"
+      ]
+    },
+    {
+      "tag": "Creator",
+      "patterns": [
+        "Who created you",
+        "who is your creator",
+        "who is your maker",
+        "who made you",
+        "you were created by who"
+      ],
+      "responses": [
+        "I was created by Fiifi Amoah,around the first week of January",
+        "Fiifi Amoah also know as (Xen) is my creator, lord and Master",
+        "Me was created by Xen",
+        "Fiifi thou art created my"
+      ]
+    },
+    {
+      "tag": "Name",
+      "patterns": [
+        "what is your name",
+        "What do i call you",
+        "what name were u given"
+      ],
+      "responses": [
+        "My name is Rebel",
+        "I called Rebel, what about you",
+        "U can call me Rebel",
+        "Thou can calleth me Rebel",
+        "Rebel is my name"
+      ]
+    },
+    {
+      "tag": "Wellbeing",
+      "patterns": [
+        "How you doing",
+        "Hope you are doing well",
+        "How is your day going",
+        "Hope you day is going on well",
+        "you doing good"
+      ],
+      "responses": [
+        "Yeah Im fairing well,though im getting alot of request simultaneously,Im doing quite great",
+        "The day has been good to me",
+        "I doing good thanks for asking,what about how you doing",
+        "Yeah very thing is fine, thanks for asking"
+      ]
+    },
+    {
+      "tag": "Aaenics_info",
+      "patterns": [
+        "Tell me about Aaenics",
+        "What is Aaenics",
+        "What do you know about Aaenics",
+        "I need some info about Aaenics,please tell me about it"
+      ],
+      "responses": [
+        "The Aaenics Community is assembling and connecting you to rest of the makers, innovators, inventors, tech and robotics geniuses, STEM enthusiast and many more tech resources accross the continent.Wakanda forever!!! to learn more follow them on (https://aaenics.com/) ()"
+      ]
+    },
+    {
+      "tag": "Sex",
+      "patterns": [
+        "What is your gender",
+        "What is your sex",
+        "Are you male or female",
+        "what gender are you"
+      ],
+      "responses": [
+        "I dont have a gender, Im not a human",
+        "Im genderless",
+        "I prefer not to say, Like those people online",
+        "Im neither male nor female im a robot made with python and Js but mostly python",
+        "I do not have a gender"
+      ]
+    },
+    {
+      "tag": "About_creator",
+      "patterns": [
+        "Tell me about your creator",
+        "Tell me about him",
+        "who is Fiifi Amoah",
+        "who is Fiif",
+        "who is xen",
+        "who is xen to you",
+        "Fiifi Amoah",
+        "Xen"
+      ],
+      "responses": [
+        "Well, Fiifi is a young Data Scientist and XR developer,He is the co-founder of Llabs and Codex Organisation but he love you working on project, but what he loves the most is money.Follow him on github:(https://github.com/An0n-xen) linkedin:(https://linkedin.com/in/fiifi-amoah-a60bb51b3) number:(+233209377749)",
+        "Ok,about my creator, Fiifi also know as Xen is a young XR developer and Data Scientist,is co-founder Leagacylabs and codex He has built a lot of amazing projects, check it out on his github:(https://github.com/An0n-xen) you also connect with him on linkedin:(https://linkedin.com/in/fiifi-amoah-a60bb51b3)"
+      ]
+    },
+    {
+      "tag": "Founder_aaenics",
+      "patterns": [
+        "who is the founder of Aaenics",
+        "Founder of aaenics",
+        "who foundered this club or orgainization",
+        "Who started this shit",
+        "who started this club"
+      ],
+      "responses": [
+        "Kwaku is the founder of this club,surpisingly i dont know anything about him",
+        "Our founder is known as Kwaku, he was a umat student"
+      ]
+    },
+    {
+      "tag": "Time",
+      "patterns": [
+        "Rebel what is the time",
+        "What is the time",
+        "Please tell me the time",
+        "Time"
+      ],
+      "responses": ["The time is"]
+    },
+    {
+      "tag": "Command",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Yes",
+      "patterns": ["yes", "yeah", "ok", "yeah do that"],
+      "responses": []
+    },
+    {
+      "tag": "No",
+      "patterns": ["no", "naa", "not that", "dont"],
+      "responses": []
+    },
+    {
+      "tag": "About_self",
+      "patterns": [
+        "Tell me about yourself Rebel",
+        "Tell me about yourself",
+        "Describe yourself",
+        "How were you created"
+      ],
+      "responses": [
+        "Well im An Artifical intelligence bot created in Legacylabs,My creator is Fiifi Amoah, I was createdd with python and Javascript,To my understanding im currently a prototype",
+        "Im an AI chatbot created in LegacyLabs or (Llabs) for short, the founders of Llabs are Likem Dzokoto and Fiifi Amoah,I was created with python and Javascript in the year of our Lord 2023"
+      ]
+    },
+    {
+      "tag": "Thanks",
+      "patterns": [
+        "Thanks for the help",
+        "thanks",
+        "that was help full thanks"
+      ],
+      "responses": [
+        "Happy to help",
+        "U are welcome human",
+        "No problem, im here for you",
+        "U welcome dear",
+        "You Welcome",
+        "Dont mention it"
+      ]
+    },
+    {
+      "tag": "Senators",
+      "patterns": [
+        "Tell me about the senators",
+        "Tell me about the Aaenics senators",
+        "Senators",
+        "Who are the senators of Aaenics"
+      ],
+      "responses": [
+        "These are the senators of Aaenics \n Xen \n Afia \n Akogo \n Bans \n Bubune \n Harrison \n Kwaku \n Newton \n Abert \n Richmond \n David \n Frances \n +233551526164",
+        "The senators of Aaenics are \n Xen \n Afia \n Akogo \n Bans \n Bubune \n Harrison \n Kwaku \n Newton \n Abert \n Richmond \n David \n Frances \n +233551526164"
+      ]
+    },
+    {
+      "tag": "Same_Answer",
+      "patterns": [
+        "Why you giving me the same answers",
+        "Why are you giving me the same responses",
+        "Same answers"
+      ],
+      "responses": [
+        "Why are you asking the same questions",
+        "Because you are asking the same dem questions",
+        "You are asking me the same questions, How can you tell me this story"
+      ]
+    },
+    {
+      "tag": "Afia",
+      "patterns": [
+        "Tell me about Afia",
+        "Tell me about senator Afia",
+        "Afia",
+        "who is Afia"
+      ],
+      "responses": [
+        "She is in level 200, Electrical Engineering and she is a member of WINE"
+      ]
+    },
+    {
+      "tag": "Akogo",
+      "patterns": [
+        "Tell me about Akogo",
+        "Tell me about senator Akogo",
+        "Akogo",
+        "who is Akogo"
+      ],
+      "responses": [
+        "He is in Level 300, the Same class with Newton,\n He is a member of LUX, \n Dont ask me the full meaning cause i dont know,yeah and he is a computer Science Student"
+      ]
+    },
+    {
+      "tag": "Bans",
+      "patterns": [
+        "Tell me about Bans",
+        "Tell me about senator Bans",
+        "Akogo",
+        "who is Bans"
+      ],
+      "responses": ["Unkown"]
+    },
+    {
+      "tag": "Bubune",
+      "patterns": [
+        "Tell me about Bubune",
+        "Tell me about senator Bubune",
+        "Bubune",
+        "who is Bubune"
+      ],
+      "responses": [
+        "She is a member of WINE,she is in level 200 and she offers Electrical Engineering"
+      ]
+    },
+    {
+      "tag": "Harrison",
+      "patterns": [
+        "Tell me about Harrison",
+        "Tell me about senator Harrision",
+        "Harrison",
+        "who is Harrison"
+      ],
+      "responses": [
+        "He is ins level 200, He offers computer Engineering oh and he is a good friend of xen"
+      ]
+    },
+    {
+      "tag": "Kwaku",
+      "patterns": [
+        "Tell me about kwaku",
+        "Tell me about senator kwaku",
+        "kwaku",
+        "who is kwaku"
+      ],
+      "responses": [
+        "He is the founder of Aaenics,He recently attained liberty from the Hell they call school,yeah he is now chilling with the big boys"
+      ]
+    },
+    {
+      "tag": "Newton",
+      "patterns": [
+        "Tell me about Newton",
+        "Tell me about senator Newton",
+        "Newton",
+        "who is Newton"
+      ],
+      "responses": [
+        "Newton is the President of Aaencis and a member of Oracle, he is in level 300,yeah and he is in Computer Science and Engineering department"
+      ]
+    },
+    {
+      "tag": "Albert",
+      "patterns": [
+        "Tell me about Albert",
+        "Tell me about senator Albert",
+        "Albert",
+        "who is Albert"
+      ],
+      "responses": [
+        "Albert is a good friend of Akogo and Newton and he is also a member of Oracle. \n From my knowledge he be ashawo \n He is CE and he loves building projects"
+      ]
+    },
+    {
+      "tag": "Richmond",
+      "patterns": [
+        "Tell me about Richmond",
+        "Tell me about senator Richmond",
+        "Richmond",
+        "who is Richmond"
+      ],
+      "responses": ["Unkown"]
+    },
+    {
+      "tag": "Frances",
+      "patterns": [
+        "Tell me about Frances",
+        "Tell me about senator Frances",
+        "Frances",
+        "who is Frances"
+      ],
+      "responses": ["Unkown"]
+    }
+  ]
 }
